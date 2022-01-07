@@ -206,3 +206,10 @@ export function quickCopy(value) {
   }
   return value
 }
+
+/**
+ * 数组去重
+ */
+export function unique (arr) {
+  return Array.from(new Set(arr))
+}

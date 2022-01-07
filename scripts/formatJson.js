@@ -24,8 +24,7 @@ function getJsonArray (csvFilePath) {
 
 getJsonArray(csvFilePath).then(jsonArrayObj => {
 	const data = utils.addTag(jsonArrayObj)
-	console.log(data)
-	fs.writeFile(outputFilePath, JSON.stringify(data), function(err) {
+	fs.writeFile(outputFilePath, data, function(err) {
 		if(err) {
 			return console.log(err);
 		}

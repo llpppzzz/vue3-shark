@@ -91,7 +91,7 @@ export default {
 
 <style lang="scss">
 .echarts {
-  width: 400px;
+  width: 100%;
   height: 350px;
 }
 </style>

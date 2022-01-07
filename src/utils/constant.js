@@ -20,3 +20,5 @@ export const API_REQUEST_CONTENT_TYPE = 'application/json' // API Content-Type �
 
 export const EARN_CATEGORY_LIST = ['工资', '兼职']
 export const COAST_CATEGORY_LIST = ['住房', '投资', '汽车', '交通', '餐饮', '长辈', '保险', '服饰', '数码', '份子钱', '美容', '宠物', '居家', '大餐', '日用', '娱乐', '社交', '日常洗护', '水电煤气', '零食', '水果', '旅行', '通讯', '烟酒', '其他', '医疗', '书籍', '快递', '礼物', '维修', '购物', '婚礼']
+
+export const MONTHS = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
